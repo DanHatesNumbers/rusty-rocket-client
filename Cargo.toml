@@ -1,0 +1,6 @@
+[package]
+name = "rusty-rocket-client"
+version = "0.1.0"
+authors = ["Daniel Murphy <danhatesnumbers@gmail.com>"]
+
+[dependencies]
