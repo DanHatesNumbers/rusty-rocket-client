@@ -58,5 +58,5 @@ fn main() -> Result<(), AppError> {
     });
 
     core.run(work)
-        .map_err(|error| error.into())
+        .map_err(From::from)
 }
